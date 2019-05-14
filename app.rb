@@ -24,7 +24,7 @@ class App < Sinatra::Base
   end
   # binding.pry
   get '/say/:word1/:word2/:word3/:word4/:word5' do
-    @phrase = "#{:word1} " + "#{:word2} " + "#{:word3} " + "#{:word4} " + "#{:word5}."
+    @phrase = "#{params[:word1]} " + "#{params[:word2]} " + "#{params[:word3]} " + "#{params[:word4]} " + "#{params[:word5]}."
     binding.pry
     @phrase
   end
