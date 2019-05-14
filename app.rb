@@ -23,6 +23,8 @@ class App < Sinatra::Base
     @phrase
   end
   # binding.pry
-
+  get '/say/:word1/:word2/:word3/:word4/:word5' do
+    "#{word} " + "#{word} " + "#{word} " + "#{word} " + "#{word} "
+  end
 
 end
