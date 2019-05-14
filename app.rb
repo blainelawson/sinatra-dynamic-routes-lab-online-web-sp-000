@@ -41,6 +41,8 @@ binding.pry
     elsif @operation == "divide"
       @answer = @num1 / @num2
     end
+
+    @answer
   end
 
 end
