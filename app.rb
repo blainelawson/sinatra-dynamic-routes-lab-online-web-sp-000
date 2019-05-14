@@ -24,5 +24,5 @@ class App < Sinatra::Base
   end
   # binding.pry
 
-  
+
 end
